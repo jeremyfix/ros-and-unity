@@ -1,5 +1,6 @@
 
-![a drone in unity](https://raw.githubusercontent.com/jeremyfix/ros-and-unity/master/DronePrefab/media/drone_unity.png)
+[![A drone in unity](https://raw.githubusercontent.com/jeremyfix/ros-and-unity/master/DronePrefab/media/drone_unity.png)](https://raw.githubusercontent.com/jeremyfix/ros-and-unity/master/DronePrefab/media/drone_unity.ogv)
+
 
 The drone mesh is the one provided by tum-simulator[1], in particular, the quadrotor meshes in the cvg_sim_gazebo directory. The URDF file has been imported with the URDFImporter of ros-sharp [2]
 
