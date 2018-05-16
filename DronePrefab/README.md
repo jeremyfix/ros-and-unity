@@ -1,5 +1,5 @@
 
-[![AirSim Drone Demo Video](media/drone_unity.png)](https://youtu.be/7dAWG5NHZac)
+[![AirSim Drone Demo Video](media/drone_unity.png)](https://youtu.be/XajgNfNJ1VI)
 
 [Check out the video](https://youtu.be/7dAWG5NHZac)
 
