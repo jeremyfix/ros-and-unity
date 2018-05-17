@@ -1,7 +1,9 @@
 
-[![AirSim Drone Demo Video](media/drone_unity.png)](https://youtu.be/XajgNfNJ1VI)
+[![Drone Demo Video](media/drone_unity.png)](https://youtu.be/XajgNfNJ1VI)
 
-[Check out the video](https://youtu.be/7dAWG5NHZac)
+# Introduction
+
+[Check out the video](https://youtu.be/XajgNfNJ1VI)
 
 The drone mesh is the one provided by tum-simulator[1], in particular, the quadrotor meshes in the cvg_sim_gazebo directory. The URDF file has been imported with the URDFImporter of ros-sharp [2]
 
@@ -18,5 +20,12 @@ The drone is equiped with a camera which can be stabilized, i.e. compensate for 
 If you want to test the drone, take an empty scene, drag and drop the Drone prefab. Then create an empty object and add the "KeyToCmdVel" script. You can then move the drone with the up/down/left/right arrows, pageup/pagedown and w/x for the yaw.
 
 [1] https://github.com/tum-vision/tum_simulator
-
 [2] https://github.com/siemens/ros-sharp/
+
+
+# Using the drone with Unity3D 2018.1.0f2 and ROS kinetic
+
+If you want to use the drone within Unity3D and interface it with ROS, you should do :
+
+1. Import the unitypackage asset within Unity3D
+1. nlnk
