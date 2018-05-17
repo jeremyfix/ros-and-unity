@@ -30,10 +30,15 @@ If you want to use the drone within Unity3D and interface it with ROS, you shoul
 1. Import the unitypackage asset within Unity3D
 1. Import the ros sharp release 1.2a unitypackage asset from [3]
 1. Drag and drop the Drone/DroneRos prefab
-1. Create an empty object and add a RosSharp/Scripts/RosCommunication/RosConnector component to it
-1. Drag and drop a RosSharp/Scripts/RosCommunications/UnityTimePublisher component to your RosConnector; Set the topic to */drone/image/compressed*
-1. Assign your camera of your instance of the DroneRos prefab to the UnityTimePublisher/Message provider attribute; Set the topic to */drone/3rdview/compressed*
-1. Do the previous 2 steps for the ThirdPersonCamera  of your instance of DroneRos
-1. Drag 
+1. Create an empty object and add a RosSharp/Scripts/RosCommunication/RosConnector component to it. Set the Ros bridge server URL attribute to your localhost **ws://127.0.0.1:9090**
+1. Drag and drop a RosSharp/Scripts/RosCommunications/UnityTimePublisher component to your RosConnector; Set the topic to **/drone/image/compressed**
+1. Assign your camera of your instance of the DroneRos prefab to the UnityTimePublisher/Message provider attribute
+1. Do the previous 2 steps for the ThirdPersonCamera  of your instance of DroneRos, and set the topic of the publisher to **/drone/3rdview/compressed**
+1. Drag and drone a RosSharp/Scripts/RosCommunication/Subscriber to your RosConnector. Set the topic to **/drone/cmd_vel**  and assign your instance of DroneRos  to the MessageReceiver
+
+You can now roslaunch the test.launch script in this repository and then start the game within unity3D;
+
+You should get two image topics (see with rqt_image_view)  and a Twist topic on /drone/cmd_vel on which you can post your commands.
+
 
 [3]  https://github.com/siemens/ros-sharp/releases
