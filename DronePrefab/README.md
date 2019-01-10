@@ -5,7 +5,7 @@
 
 [Check out the video](https://youtu.be/XajgNfNJ1VI)
 
-The drone mesh is the one provided by tum-simulator[1], in particular, the quadrotor meshes in the cvg_sim_gazebo directory. The URDF file has been imported with the URDFImporter of ros-sharp [2]
+The drone mesh is the one provided by gazebo for the bebop2 [1].
 
 
 The control is very naïve. It's using a PID controller with absolutely no knowledge about the true dynamics of the drone. It is just regulating the forces of the propellers in order to minimize an error. Four PID controllers are used :
@@ -19,8 +19,7 @@ The drone is equiped with a camera which can be stabilized, i.e. compensate for 
 
 If you want to test the drone, take an empty scene, drag and drop the Drone prefab. Then create an empty object and add the "KeyToCmdVel" script. You can then move the drone with the up/down/left/right arrows, pageup/pagedown and w/x for the yaw.
 
-[1] https://github.com/tum-vision/tum_simulator
-[2] https://github.com/siemens/ros-sharp/
+[1] http://models.gazebosim.org/parrot_bebop_2/
 
 
 # Using the drone with Unity3D 2018.1.0f2 and ROS kinetic
