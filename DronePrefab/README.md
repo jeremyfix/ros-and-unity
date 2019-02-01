@@ -1,6 +1,10 @@
 
 [![Drone Demo Video](media/drone_unity.png)](https://youtu.be/XajgNfNJ1VI)
 
+# Preliminary comment
+
+The embedded controller is really , really basic. You might be interested in the [PX4](https://px4.io) and [DroneCode](https://www.dronecode.org/) initiatives. 
+
 # Introduction
 
 [Check out the video](https://youtu.be/XajgNfNJ1VI)
