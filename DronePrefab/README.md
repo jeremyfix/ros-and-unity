@@ -5,6 +5,9 @@
 
 The embedded controller is really , really basic. You might be interested in the [PX4](https://px4.io) and [DroneCode](https://www.dronecode.org/) initiatives. 
 
+
+This drone prefab has been built within the [Grone Interreg Project](https://interreg-grone.eu/fr/projet-2/)
+
 # Introduction
 
 [Check out the video](https://youtu.be/XajgNfNJ1VI)
